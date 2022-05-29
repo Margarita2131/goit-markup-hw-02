@@ -56,6 +56,7 @@ text-decoration:none;
  }
  .site-nav-current {
      text-decoration: none;
+    color: var(--accent-color);
  }
  .auth-nav {
      color:var(--primary-text-color);
@@ -72,6 +73,7 @@ text-decoration:none;
  .hero-title
  {
      background-color: #2F303A;
+     color: #FFFFFF;
 font-weight: 900;
 font-size: 44px;
 line-height: 1,4;
@@ -140,6 +142,15 @@ line-height: 1.18;
  
  .button.secondary.curent :active {
      cursor: pointer;
+
+ }
+ .button.secondary.curent:hover {
+    color: var(--primary-white-color);
+        background-color: var(--accent-color);
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 1.6;
+
  }
 
  .button.secondary:hover,
@@ -154,10 +165,13 @@ cursor: pointer;
  .button-item {
     color: var(--primary-white-color);
     background-color:var(--accent-color);
+    font-weight: 700;
     ont-weight: 700;
 font-size: 16px;
 line-height: 1.8;
 cursor: pointer;
+padding: 10px 32px;
+    
  }
  
  .portfolio-picture {
