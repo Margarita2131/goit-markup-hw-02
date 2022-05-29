@@ -6,6 +6,24 @@
 --primary-white-color:#FFFFFF;
 }
 
+.conteiner {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+}
+.main-nav {
+    display: flex;
+    align-items: center;
+    
+}
+.list {
+    display: flex;
+    align-items: center;
+    margin-left: 93px;
+}
+
 body {
     background-color:var(--primary-bg-color);
     color: var(--primary-text-color);
@@ -41,6 +59,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration:none;
+padding-right: 50px;
 
 }
  .site-nav:hover,
@@ -57,6 +76,7 @@ text-decoration:none;
  .site-nav-current {
      text-decoration: none;
     color: var(--accent-color);
+    padding-right: 50px;
  }
  .auth-nav {
      color:var(--primary-text-color);
@@ -65,6 +85,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration:none;
+padding-right: 50px;
  }
  .auth-nav:hover,
  .auth-nav:focus {
@@ -78,6 +99,8 @@ font-weight: 900;
 font-size: 44px;
 line-height: 1,4;
  }
+
+
  .visually-hidden {
      position: absolute;
      white-space: nowrap;
